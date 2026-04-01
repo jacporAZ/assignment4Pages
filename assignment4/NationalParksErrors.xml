@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <NationalPark>
-
+	<!--This is a copy of the NationalParks.xml with specified errors-->
 	<NationalPark Rating="4.6">
 		<Name>Great Smoky Mountains</Name>
 		<Phone>865-436-1200</Phone>

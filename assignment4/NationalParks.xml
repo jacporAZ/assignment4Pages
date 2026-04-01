@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <NationalParks>
-	
+	<!--This is options 1-10 of the national parks following the XSD schema-->
 	<NationalPark Rating="4.6">
 		<Name>Great Smoky Mountains</Name>
 		<Phone>865-436-1200</Phone>
@@ -13,7 +13,7 @@
 		</Address>
 	</NationalPark>
 
-	<NationalPark Rating="5.0">
+	<NationalPark>
 		<Name>Yellowstone</Name>
 		<Phone>307-344-7381</Phone>
 		<Phone>307-344-7383</Phone>
@@ -26,13 +26,15 @@
 		</Address>
 	</NationalPark>
 
-	<NationalPark Rating="4.6">
+	<NationalPark Rating="4.9">
 		<Name>Grand Canyon</Name>
 		<Phone>928-638-7888</Phone>
-		<Address NearestAirport="FLG">
-			<Number>1542</Number>
-			<Street>Liberator Dr</Street>
-			<City>Grand Canyon Village</City>
+		<Phone>888-297-2757</Phone>
+		<Phone>866-499-2574</Phone>
+		<Address NearestAirport="FlagStaff">
+			<Number>8</Number>
+			<Street>S Entrance Road</Street>
+			<City>Grand Canyon</City>
 			<State>AZ</State>
 			<Zip>86023</Zip>
 		</Address>
@@ -62,7 +64,7 @@
 		</Address>
 	</NationalPark>
 
-	<NationalPark Rating="5.0">
+	<NationalPark>
 		<Name>Rocky Mountains</Name>
 		<Phone>970-586-12-6</Phone>
 		<Address NearestAirport="DEN">
@@ -113,7 +115,8 @@
 
 	<NationalPark Rating="4.9">
 		<Name>Olympic</Name>
-		<Phone>360-565-3130</Phone>
+		<Phone>360-565-3130</Phone> 
+		<Phone>343-232-3221</Phone>
 		<Address NearestAirport="SEA">
 			<Number>600</Number>
 			<Street>E Park Ave</Street>
@@ -122,6 +125,5 @@
 			<Zip>98362</Zip>
 		</Address>
 	</NationalPark>
-	
 	
 </NationalParks>
