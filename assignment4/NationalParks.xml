@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<NationalParks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/jacporAZ/assignment4Pages/refs/heads/master/assignment4/NationalParks.xsd">
+<NationalParks xmlns="http://www.nationalparks.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance https://raw.githubusercontent.com/jacporAZ/assignment4Pages/refs/heads/master/assignment4/NationalParks.xsd">
 	<!--This is options 1-10 of the national parks following the XSD schema-->
 	<NationalPark Rating="4.6">
 		<Name>Great Smoky Mountains</Name>

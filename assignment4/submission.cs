@@ -84,13 +84,14 @@ namespace ConsoleApp1
 
             // add settings for the reader to read
             XmlReaderSettings xmlReaderSettings = new XmlReaderSettings();
+            xmlReaderSettings.DtdProcessing = DtdProcessing.Parse;
             // yusing the reader, read the xml and load into xmldoc object
             using (XmlReader reader = XmlReader.Create(xmlUrl, xmlReaderSettings)) { 
                 xmlDoc.Load(reader);
             }
 
             // return the result of the conversion, serialize for JSON 
-            string result = JsonConvert.SerializeXmlNode(xmlDoc.DocumentElement, Newtonsoft.Json.Formatting.Indented, false);
+            string result = JsonConvert.SerializeXmlNode(xmlDoc, Newtonsoft.Json.Formatting.Indented, false);
             return result;
         }
 
