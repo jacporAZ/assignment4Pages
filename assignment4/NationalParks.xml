@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<NationalParks>
+<NationalParks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/jacporAZ/assignment4Pages/refs/heads/master/assignment4/NationalParks.xsd">
 	<!--This is options 1-10 of the national parks following the XSD schema-->
 	<NationalPark Rating="4.6">
 		<Name>Great Smoky Mountains</Name>
@@ -28,7 +28,7 @@
 
 	<NationalPark Rating="4.9">
 		<Name>Grand Canyon</Name>
-		<Phone>928-638-7888</Phone>
+		<Phone>928-638-7496</Phone>
 		<Phone>888-297-2757</Phone>
 		<Phone>866-499-2574</Phone>
 		<Address NearestAirport="FlagStaff">
